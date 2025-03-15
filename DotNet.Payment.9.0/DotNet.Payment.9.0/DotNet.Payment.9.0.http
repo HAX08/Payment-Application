@@ -1,0 +1,6 @@
+@DotNet.Payment._9._0_HostAddress = http://localhost:5043
+
+GET {{DotNet.Payment._9._0_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
