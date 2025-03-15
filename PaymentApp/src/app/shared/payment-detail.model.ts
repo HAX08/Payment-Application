@@ -4,4 +4,5 @@ export class PaymentDetail {
     cardNumber: string = ""
     securityCode: string = ""
     expirationDate: string = ""  
+    isEditing: boolean = false
 }
