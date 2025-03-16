@@ -46,6 +46,7 @@ export class PaymentDetailFormComponent {
           this.service.list = res as PaymentDetail[]
           this.service.resetForm(form)
           alert('Payment Details successfully registered');
+          location.reload();
         },
         error: err =>{
           console.log(err)

@@ -15,3 +15,9 @@ form input::placeholder {
 form.submitted input.ng-invalid{
     border-color: red;
 }
+
+
+.custom-small-button {
+    padding: 0.15rem 0.5rem; /* Adjust padding to make it smaller */
+    font-size: 0.75rem; /* Adjust font size */
+}

@@ -59,6 +59,7 @@ export class PaymentDetailsComponent implements OnInit{
         next: res =>{
           this.service.list = res as PaymentDetail[]
           console.log(res)
+          location.reload();
         },
         error: err =>{
           console.log(err)
